@@ -1,0 +1,22 @@
+﻿@model ConfirmMailViewModel
+@{
+    Layout = null;
+}
+
+<link href="\lib\bootstrap\dist\css\bootstrap.min.css" rel="stylesheet" />
+
+<div class="container">
+    <br />
+    <br />
+    <form method="post">
+        <h2>Ported Email Address: @ViewBag.v</h2>
+        <br />
+        <label>User ID Value</label>
+        <input type="text" class="form-control" asp-for="Mail" value="@ViewBag.v"/>
+        <br />
+        <label>Enter the 6-Digit Confirmation Code Sent to Your E-mail Address</label>
+        <input type="text" class="form-control" asp-for="ConfirmCode"/>
+        <br />
+        <button class="btn btn-primary">Activate Account</button>
+    </form>
+</div>
