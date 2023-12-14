@@ -1,0 +1,14 @@
+C:\Users\90535\source\repos\MailMe\MailMeEntityLayer\bin\Debug\net6.0\MailMeEntityLayer.deps.json
+C:\Users\90535\source\repos\MailMe\MailMeEntityLayer\bin\Debug\net6.0\MailMeEntityLayer.runtimeconfig.json
+C:\Users\90535\source\repos\MailMe\MailMeEntityLayer\bin\Debug\net6.0\MailMeEntityLayer.dll
+C:\Users\90535\source\repos\MailMe\MailMeEntityLayer\bin\Debug\net6.0\MailMeEntityLayer.pdb
+C:\Users\90535\source\repos\MailMe\MailMeEntityLayer\obj\Debug\net6.0\MailMeEntityLayer.csproj.AssemblyReference.cache
+C:\Users\90535\source\repos\MailMe\MailMeEntityLayer\obj\Debug\net6.0\MailMeEntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90535\source\repos\MailMe\MailMeEntityLayer\obj\Debug\net6.0\MailMeEntityLayer.AssemblyInfoInputs.cache
+C:\Users\90535\source\repos\MailMe\MailMeEntityLayer\obj\Debug\net6.0\MailMeEntityLayer.AssemblyInfo.cs
+C:\Users\90535\source\repos\MailMe\MailMeEntityLayer\obj\Debug\net6.0\MailMeEntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\90535\source\repos\MailMe\MailMeEntityLayer\obj\Debug\net6.0\MailMeEntityLayer.dll
+C:\Users\90535\source\repos\MailMe\MailMeEntityLayer\obj\Debug\net6.0\refint\MailMeEntityLayer.dll
+C:\Users\90535\source\repos\MailMe\MailMeEntityLayer\obj\Debug\net6.0\MailMeEntityLayer.pdb
+C:\Users\90535\source\repos\MailMe\MailMeEntityLayer\obj\Debug\net6.0\MailMeEntityLayer.genruntimeconfig.cache
+C:\Users\90535\source\repos\MailMe\MailMeEntityLayer\obj\Debug\net6.0\ref\MailMeEntityLayer.dll

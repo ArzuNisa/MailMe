@@ -1,0 +1,17 @@
+C:\Users\90535\source\repos\MailMe\MailMeDataAccessLayer\bin\Debug\net6.0\MailMeDataAccessLayer.deps.json
+C:\Users\90535\source\repos\MailMe\MailMeDataAccessLayer\bin\Debug\net6.0\MailMeDataAccessLayer.runtimeconfig.json
+C:\Users\90535\source\repos\MailMe\MailMeDataAccessLayer\bin\Debug\net6.0\MailMeDataAccessLayer.dll
+C:\Users\90535\source\repos\MailMe\MailMeDataAccessLayer\bin\Debug\net6.0\MailMeDataAccessLayer.pdb
+C:\Users\90535\source\repos\MailMe\MailMeDataAccessLayer\bin\Debug\net6.0\MailMeEntityLayer.dll
+C:\Users\90535\source\repos\MailMe\MailMeDataAccessLayer\bin\Debug\net6.0\MailMeEntityLayer.pdb
+C:\Users\90535\source\repos\MailMe\MailMeDataAccessLayer\obj\Debug\net6.0\MailMeDataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\90535\source\repos\MailMe\MailMeDataAccessLayer\obj\Debug\net6.0\MailMeDataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90535\source\repos\MailMe\MailMeDataAccessLayer\obj\Debug\net6.0\MailMeDataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\90535\source\repos\MailMe\MailMeDataAccessLayer\obj\Debug\net6.0\MailMeDataAccessLayer.AssemblyInfo.cs
+C:\Users\90535\source\repos\MailMe\MailMeDataAccessLayer\obj\Debug\net6.0\MailMeDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\90535\source\repos\MailMe\MailMeDataAccessLayer\obj\Debug\net6.0\MailMeDataAccessLayer.csproj.CopyComplete
+C:\Users\90535\source\repos\MailMe\MailMeDataAccessLayer\obj\Debug\net6.0\MailMeDataAccessLayer.dll
+C:\Users\90535\source\repos\MailMe\MailMeDataAccessLayer\obj\Debug\net6.0\refint\MailMeDataAccessLayer.dll
+C:\Users\90535\source\repos\MailMe\MailMeDataAccessLayer\obj\Debug\net6.0\MailMeDataAccessLayer.pdb
+C:\Users\90535\source\repos\MailMe\MailMeDataAccessLayer\obj\Debug\net6.0\MailMeDataAccessLayer.genruntimeconfig.cache
+C:\Users\90535\source\repos\MailMe\MailMeDataAccessLayer\obj\Debug\net6.0\ref\MailMeDataAccessLayer.dll
