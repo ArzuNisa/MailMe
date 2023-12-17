@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "Scheduled Mail Sender";
+}
+
+<h2>Scheduled Mail Sender</h2>
+
+@using (Html.BeginForm("ScheduleMail", "Mail", FormMethod.Post))
+{
+    <label for="scheduledTime">Scheduled Time:</label>
+    <input type="datetime-local" id="scheduledTime" name="scheduledTime" required>
+
+    <br />
+
+    <label for="mailContent">Mail Content:</label>
+    <textarea id="mailContent" name="mailContent" rows="4" required></textarea>
+
+    <br />
+
+    <label for="recipientEmail">Recipient Email:</label>
+    <input type="email" id="recipientEmail" name="recipientEmail" required>
+
+    <br />
+
+    <input type="submit" value="Schedule Mail">
+}
+
+@if (!string.IsNullOrEmpty(ViewBag.Message))
+{
+    <div>@ViewBag.Message</div>
+}
