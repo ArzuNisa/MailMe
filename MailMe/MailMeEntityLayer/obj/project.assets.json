@@ -2187,19 +2187,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\90535\\.nuget\\packages\\": {}
+    "C:\\Users\\elif\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\90535\\source\\repos\\MailMe\\MailMeEntityLayer\\MailMeEntityLayer.csproj",
+      "projectUniqueName": "C:\\Users\\elif\\Source\\Repos\\MailMe\\MailMe\\MailMeEntityLayer\\MailMeEntityLayer.csproj",
       "projectName": "MailMeEntityLayer",
-      "projectPath": "C:\\Users\\90535\\source\\repos\\MailMe\\MailMeEntityLayer\\MailMeEntityLayer.csproj",
-      "packagesPath": "C:\\Users\\90535\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\90535\\source\\repos\\MailMe\\MailMeEntityLayer\\obj\\",
+      "projectPath": "C:\\Users\\elif\\Source\\Repos\\MailMe\\MailMe\\MailMeEntityLayer\\MailMeEntityLayer.csproj",
+      "packagesPath": "C:\\Users\\elif\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\elif\\Source\\Repos\\MailMe\\MailMe\\MailMeEntityLayer\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\90535\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\elif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2260,7 +2265,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -2435,19 +2435,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\90535\\.nuget\\packages\\": {}
+    "C:\\Users\\elif\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\90535\\source\\repos\\MailMe\\MailMeBusinessLayer\\MailMeBusinessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\elif\\source\\repos\\MailMe\\MailMe\\MailMeBusinessLayer\\MailMeBusinessLayer.csproj",
       "projectName": "MailMeBusinessLayer",
-      "projectPath": "C:\\Users\\90535\\source\\repos\\MailMe\\MailMeBusinessLayer\\MailMeBusinessLayer.csproj",
-      "packagesPath": "C:\\Users\\90535\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\90535\\source\\repos\\MailMe\\MailMeBusinessLayer\\obj\\",
+      "projectPath": "C:\\Users\\elif\\source\\repos\\MailMe\\MailMe\\MailMeBusinessLayer\\MailMeBusinessLayer.csproj",
+      "packagesPath": "C:\\Users\\elif\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\elif\\source\\repos\\MailMe\\MailMe\\MailMeBusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\90535\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\elif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2461,14 +2466,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\90535\\source\\repos\\MailMe\\DtoLayer\\MailMeDtoLayer.csproj": {
-              "projectPath": "C:\\Users\\90535\\source\\repos\\MailMe\\DtoLayer\\MailMeDtoLayer.csproj"
+            "C:\\Users\\elif\\source\\repos\\MailMe\\MailMe\\DtoLayer\\MailMeDtoLayer.csproj": {
+              "projectPath": "C:\\Users\\elif\\source\\repos\\MailMe\\MailMe\\DtoLayer\\MailMeDtoLayer.csproj"
             },
-            "C:\\Users\\90535\\source\\repos\\MailMe\\MailMeDataAccessLayer\\MailMeDataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\90535\\source\\repos\\MailMe\\MailMeDataAccessLayer\\MailMeDataAccessLayer.csproj"
+            "C:\\Users\\elif\\source\\repos\\MailMe\\MailMe\\MailMeDataAccessLayer\\MailMeDataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\elif\\source\\repos\\MailMe\\MailMe\\MailMeDataAccessLayer\\MailMeDataAccessLayer.csproj"
             },
-            "C:\\Users\\90535\\source\\repos\\MailMe\\MailMeEntityLayer\\MailMeEntityLayer.csproj": {
-              "projectPath": "C:\\Users\\90535\\source\\repos\\MailMe\\MailMeEntityLayer\\MailMeEntityLayer.csproj"
+            "C:\\Users\\elif\\source\\repos\\MailMe\\MailMe\\MailMeEntityLayer\\MailMeEntityLayer.csproj": {
+              "projectPath": "C:\\Users\\elif\\source\\repos\\MailMe\\MailMe\\MailMeEntityLayer\\MailMeEntityLayer.csproj"
             }
           }
         }
@@ -2526,7 +2531,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
