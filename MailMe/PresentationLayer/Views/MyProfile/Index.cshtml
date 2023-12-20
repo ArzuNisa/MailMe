@@ -1,6 +1,34 @@
 ﻿
-@{
-    Layout = null;
-}
 
-<h2>This is My Profile Page</h2>
+@using MailMeEntityLayer.Concrete;
+@model List<MailUser>
+
+
+<div class="container mt-3">
+    <h2>My Profil Page</h2>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Recipient Email</th>
+                <th>Created Time</th>
+                <th>Scheduled Time</th>
+                <th>Title</th>
+                <th>Mail Content</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mail in Model)
+            {
+                <tr>
+                    <td>@mail.RecipientEmail</td>
+                    <td>@mail.CreatedTime</td>
+                    <td>@mail.ScheduledTime</td>
+                    <td>@mail.Title</td>
+                    <td>@mail.MailContent</td>
+                    <td><a asp-action="DeleteMail" asp-route-id="@mail.Id" class="btn btn-danger">Delete</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

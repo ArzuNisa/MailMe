@@ -9,11 +9,22 @@ using System.Net.Mail;
 using System.Threading.Tasks;
 using MailKit.Net.Smtp;
 using MimeKit;
+using MailMeDataAccessLayer.Concrete;
+using Microsoft.AspNetCore.Identity;
 
 namespace ScheduledMailSender.Controllers
 {
     public class MailController : Controller
     {
+
+        private readonly Context _context;
+        private readonly UserManager<AppUser> _userManager;
+        public MailController(Context context, UserManager<AppUser> userManager)
+        {
+            _context = new();
+            _userManager = userManager;
+        }
+
         // GET: Mail
         public IActionResult Index()
         {
@@ -21,8 +32,20 @@ namespace ScheduledMailSender.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> ScheduleMail(DateTime scheduledTime, string mailContent, string recipientEmail)
+        public async Task<IActionResult> ScheduleMail(DateTime scheduledTime, string mailContent, string recipientEmail, string title)
         {
+            var mail = new MailUser()
+            {
+                RecipientEmail = recipientEmail,
+                ScheduledTime = scheduledTime.ToUniversalTime(),
+                CreatedTime = DateTime.UtcNow,
+                Title = title,
+                MailContent = mailContent,
+                AppUserId = int.Parse(_userManager.GetUserId(User))
+            };
+            _context.MailUsers.Add(mail);
+            _context.SaveChanges();
+
             // Şu anki zamandan belirli tarihe kadar geçen süreyi hesaplayın
             TimeSpan timeUntilScheduled = scheduledTime - DateTime.Now;
 
@@ -41,7 +64,7 @@ namespace ScheduledMailSender.Controllers
             bodyBuilder.TextBody = "Your E-mail from past: \n" + mailContent;
             mimeMessage.Body = bodyBuilder.ToMessageBody();
 
-            mimeMessage.Subject = "MailMe Mail";
+            mimeMessage.Subject = title;
 
             MailKit.Net.Smtp.SmtpClient client = new MailKit.Net.Smtp.SmtpClient();
             client.Connect("smtp.gmail.com", 587, false);

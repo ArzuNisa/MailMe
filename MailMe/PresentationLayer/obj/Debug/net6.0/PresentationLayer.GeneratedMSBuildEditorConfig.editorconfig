@@ -9,57 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PresentationLayer
 build_property.RootNamespace = PresentationLayer
-build_property.ProjectDir = C:\Users\elif\source\repos\MailMe\MailMe\PresentationLayer\
+build_property.ProjectDir = C:\Users\savcd\OneDrive\Masaüstü\MailMe\PresentationLayer\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\elif\source\repos\MailMe\MailMe\PresentationLayer
+build_property.MSBuildProjectDirectory = C:\Users\savcd\OneDrive\Masaüstü\MailMe\PresentationLayer
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/elif/source/repos/MailMe/MailMe/PresentationLayer/Views/ConfirmMail/Index.cshtml]
+[C:/Users/savcd/OneDrive/Masaüstü/MailMe/PresentationLayer/Views/ConfirmMail/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlybU1haWxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elif/source/repos/MailMe/MailMe/PresentationLayer/Views/Home/Index.cshtml]
+[C:/Users/savcd/OneDrive/Masaüstü/MailMe/PresentationLayer/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elif/source/repos/MailMe/MailMe/PresentationLayer/Views/Home/Privacy.cshtml]
+[C:/Users/savcd/OneDrive/Masaüstü/MailMe/PresentationLayer/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elif/source/repos/MailMe/MailMe/PresentationLayer/Views/Login/Index.cshtml]
+[C:/Users/savcd/OneDrive/Masaüstü/MailMe/PresentationLayer/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elif/source/repos/MailMe/MailMe/PresentationLayer/Views/Mail/Index.cshtml]
+[C:/Users/savcd/OneDrive/Masaüstü/MailMe/PresentationLayer/Views/Mail/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elif/source/repos/MailMe/MailMe/PresentationLayer/Views/MyProfile/Index.cshtml]
+[C:/Users/savcd/OneDrive/Masaüstü/MailMe/PresentationLayer/Views/MyProfile/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlQcm9maWxlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elif/source/repos/MailMe/MailMe/PresentationLayer/Views/Register/Index.cshtml]
+[C:/Users/savcd/OneDrive/Masaüstü/MailMe/PresentationLayer/Views/Register/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elif/source/repos/MailMe/MailMe/PresentationLayer/Views/Shared/Error.cshtml]
+[C:/Users/savcd/OneDrive/Masaüstü/MailMe/PresentationLayer/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elif/source/repos/MailMe/MailMe/PresentationLayer/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/savcd/OneDrive/Masaüstü/MailMe/PresentationLayer/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elif/source/repos/MailMe/MailMe/PresentationLayer/Views/_ViewImports.cshtml]
+[C:/Users/savcd/OneDrive/Masaüstü/MailMe/PresentationLayer/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elif/source/repos/MailMe/MailMe/PresentationLayer/Views/_ViewStart.cshtml]
+[C:/Users/savcd/OneDrive/Masaüstü/MailMe/PresentationLayer/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elif/source/repos/MailMe/MailMe/PresentationLayer/Views/Shared/_Layout.cshtml]
+[C:/Users/savcd/OneDrive/Masaüstü/MailMe/PresentationLayer/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-xphr5dixgj

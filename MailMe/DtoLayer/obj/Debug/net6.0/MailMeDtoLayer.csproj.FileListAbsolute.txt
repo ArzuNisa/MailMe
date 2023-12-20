@@ -26,3 +26,17 @@ C:\Users\elif\Source\Repos\MailMe\MailMe\DtoLayer\obj\Debug\net6.0\refint\MailMe
 C:\Users\elif\Source\Repos\MailMe\MailMe\DtoLayer\obj\Debug\net6.0\MailMeDtoLayer.pdb
 C:\Users\elif\Source\Repos\MailMe\MailMe\DtoLayer\obj\Debug\net6.0\MailMeDtoLayer.genruntimeconfig.cache
 C:\Users\elif\Source\Repos\MailMe\MailMe\DtoLayer\obj\Debug\net6.0\ref\MailMeDtoLayer.dll
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\DtoLayer\bin\Debug\net6.0\MailMeDtoLayer.deps.json
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\DtoLayer\bin\Debug\net6.0\MailMeDtoLayer.runtimeconfig.json
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\DtoLayer\bin\Debug\net6.0\MailMeDtoLayer.dll
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\DtoLayer\bin\Debug\net6.0\MailMeDtoLayer.pdb
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\DtoLayer\obj\Debug\net6.0\MailMeDtoLayer.csproj.AssemblyReference.cache
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\DtoLayer\obj\Debug\net6.0\MailMeDtoLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\DtoLayer\obj\Debug\net6.0\MailMeDtoLayer.AssemblyInfoInputs.cache
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\DtoLayer\obj\Debug\net6.0\MailMeDtoLayer.AssemblyInfo.cs
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\DtoLayer\obj\Debug\net6.0\MailMeDtoLayer.csproj.CoreCompileInputs.cache
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\DtoLayer\obj\Debug\net6.0\MailMeDtoLayer.dll
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\DtoLayer\obj\Debug\net6.0\refint\MailMeDtoLayer.dll
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\DtoLayer\obj\Debug\net6.0\MailMeDtoLayer.pdb
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\DtoLayer\obj\Debug\net6.0\MailMeDtoLayer.genruntimeconfig.cache
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\DtoLayer\obj\Debug\net6.0\ref\MailMeDtoLayer.dll

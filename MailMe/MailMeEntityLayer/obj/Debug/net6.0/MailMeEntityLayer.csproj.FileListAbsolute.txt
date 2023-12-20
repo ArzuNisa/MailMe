@@ -26,3 +26,17 @@ C:\Users\elif\Source\Repos\MailMe\MailMe\MailMeEntityLayer\obj\Debug\net6.0\refi
 C:\Users\elif\Source\Repos\MailMe\MailMe\MailMeEntityLayer\obj\Debug\net6.0\MailMeEntityLayer.pdb
 C:\Users\elif\Source\Repos\MailMe\MailMe\MailMeEntityLayer\obj\Debug\net6.0\MailMeEntityLayer.genruntimeconfig.cache
 C:\Users\elif\Source\Repos\MailMe\MailMe\MailMeEntityLayer\obj\Debug\net6.0\ref\MailMeEntityLayer.dll
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\MailMeEntityLayer\bin\Debug\net6.0\MailMeEntityLayer.deps.json
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\MailMeEntityLayer\bin\Debug\net6.0\MailMeEntityLayer.runtimeconfig.json
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\MailMeEntityLayer\bin\Debug\net6.0\MailMeEntityLayer.dll
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\MailMeEntityLayer\bin\Debug\net6.0\MailMeEntityLayer.pdb
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\MailMeEntityLayer\obj\Debug\net6.0\MailMeEntityLayer.csproj.AssemblyReference.cache
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\MailMeEntityLayer\obj\Debug\net6.0\MailMeEntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\MailMeEntityLayer\obj\Debug\net6.0\MailMeEntityLayer.AssemblyInfoInputs.cache
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\MailMeEntityLayer\obj\Debug\net6.0\MailMeEntityLayer.AssemblyInfo.cs
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\MailMeEntityLayer\obj\Debug\net6.0\MailMeEntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\MailMeEntityLayer\obj\Debug\net6.0\MailMeEntityLayer.dll
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\MailMeEntityLayer\obj\Debug\net6.0\refint\MailMeEntityLayer.dll
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\MailMeEntityLayer\obj\Debug\net6.0\MailMeEntityLayer.pdb
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\MailMeEntityLayer\obj\Debug\net6.0\MailMeEntityLayer.genruntimeconfig.cache
+C:\Users\savcd\OneDrive\Masaüstü\MailMe\MailMeEntityLayer\obj\Debug\net6.0\ref\MailMeEntityLayer.dll

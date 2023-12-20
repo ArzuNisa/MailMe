@@ -2013,24 +2013,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\elif\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\savcd\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\elif\\Source\\Repos\\MailMe\\MailMe\\DtoLayer\\MailMeDtoLayer.csproj",
+      "projectUniqueName": "C:\\Users\\savcd\\OneDrive\\Masaüstü\\MailMe\\DtoLayer\\MailMeDtoLayer.csproj",
       "projectName": "MailMeDtoLayer",
-      "projectPath": "C:\\Users\\elif\\Source\\Repos\\MailMe\\MailMe\\DtoLayer\\MailMeDtoLayer.csproj",
-      "packagesPath": "C:\\Users\\elif\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\elif\\Source\\Repos\\MailMe\\MailMe\\DtoLayer\\obj\\",
+      "projectPath": "C:\\Users\\savcd\\OneDrive\\Masaüstü\\MailMe\\DtoLayer\\MailMeDtoLayer.csproj",
+      "packagesPath": "C:\\Users\\savcd\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\savcd\\OneDrive\\Masaüstü\\MailMe\\DtoLayer\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\elif\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\savcd\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2087,7 +2082,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

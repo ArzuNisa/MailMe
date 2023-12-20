@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using MailMeEntityLayer.Concrete;
@@ -9,7 +10,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MailMeDataAccessLayer.Concrete
 {
-    public class Context: IdentityDbContext<AppUser,AppRole,int>
+    public class Context: IdentityDbContext<AppUser,AppRole, int>
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -17,6 +18,14 @@ namespace MailMeDataAccessLayer.Concrete
         }
         public DbSet<PersonalAccount> PersonalAccounts { get; set; }
         public DbSet<PersonalAccountProcess> PersonalAccountProcesses { get; set; }
-        
+        public DbSet<MailUser> MailUsers { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+            
+            base.OnModelCreating(builder);
+        }
+
     }
 }

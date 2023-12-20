@@ -141,6 +141,43 @@ namespace MailMeDataAccessLayer.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("MailMeEntityLayer.Concrete.MailUser", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<int>("AppUserId")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("CreatedTime")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("MailContent")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("RecipientEmail")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<bool>("Remember")
+                        .HasColumnType("boolean");
+
+                    b.Property<DateTime>("ScheduledTime")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.ToTable("MailUsers", (string)null);
+                });
+
             modelBuilder.Entity("MailMeEntityLayer.Concrete.PersonalAccount", b =>
                 {
                     b.Property<int>("PersonalAccountId")
@@ -281,6 +318,17 @@ namespace MailMeDataAccessLayer.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("MailMeEntityLayer.Concrete.MailUser", b =>
+                {
+                    b.HasOne("MailMeEntityLayer.Concrete.AppUser", "AppUser")
+                        .WithMany("MailUsers")
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+                });
+
             modelBuilder.Entity("MailMeEntityLayer.Concrete.PersonalAccount", b =>
                 {
                     b.HasOne("MailMeEntityLayer.Concrete.AppUser", "AppUser")
@@ -345,6 +393,8 @@ namespace MailMeDataAccessLayer.Migrations
 
             modelBuilder.Entity("MailMeEntityLayer.Concrete.AppUser", b =>
                 {
+                    b.Navigation("MailUsers");
+
                     b.Navigation("PersonalAccounts");
                 });
 #pragma warning restore 612, 618

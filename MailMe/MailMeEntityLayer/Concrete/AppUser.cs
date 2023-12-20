@@ -15,7 +15,8 @@ namespace MailMeEntityLayer.Concrete
         public string City { get; set; }
         public string ImageUrl { get; set; }
         public int ConfirmCode { get; set; }
-
+        public ICollection<MailUser> MailUsers { get; set; }
         public List<PersonalAccount> PersonalAccounts { get; set; }
     }
+    
 }
