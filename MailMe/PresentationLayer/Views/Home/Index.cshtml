@@ -1,8 +1,28 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+	ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mail Me</title>
+	<link href="~/css/site.css" rel="stylesheet" />
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="center">
+			<h1>Do You Want to Talk To Your Futureself?</h1>
+			<h2>Here is an opportunity for you to talk to your futureself.</h2>
+			<div class="buttons">
+				<button><a href="Mail/Index">Send E-mail</a></button>
+				<button><a href="Login/Index">Login</a></button>
+				<button><a href="MyProfile/Index">My Previous E-mails</a></button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
